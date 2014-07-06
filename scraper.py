@@ -11,7 +11,7 @@ br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.
 
 
 #scraperwiki.sqlite.execute("delete from swdata where Code>0") 
-count = 0
+count = 9000
 
 while True:
     bcount = 0
@@ -23,8 +23,8 @@ while True:
     br.select_form(name="customerLogin")
     #print br.form
     
-    br["username"] = "vvs123@byom.de"
-    br["password"] = "1qay2wsx"
+    br["username"] = "kks9kks.de"
+    br["password"] = "123456"
     
     
     response = br.submit()
